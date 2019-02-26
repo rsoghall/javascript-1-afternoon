@@ -6,7 +6,7 @@
 //plus the value of the name parameter.
 
 function greeting (name){
-  return 'Hello, ' + name
+  return "Hello, " + name
 }
 
 //////////////////PROBLEM 2////////////////////
@@ -15,7 +15,7 @@ function greeting (name){
 //Name it newGreeting.
 
 let newGreeting = function(name){
-  return 'Hello, ' + name
+  return "Hello, " + name
 } 
 
 //////////////////PROBLEM 3////////////////////
@@ -23,7 +23,7 @@ let newGreeting = function(name){
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-const finalGreeting = (name => 'Hello, ' + name)
+const finalGreeting = (name => "Hello, " + name)
 
 //////////////////PROBLEM 4////////////////////
 
@@ -68,12 +68,12 @@ let devMountainClassPet = dog.name
 //The value of bark should be a function that returns the string "Woof woof".
 
 dog.bark = function(){
-  return 'Woof woof';
+  return "Woof woof"
 }
 
 //Store the result of invoking the bark method in a variable called ruff.
 
-const ruff = dog.bark;
+const ruff = dog.bark();
 
 //////////////////PROBLEM 6////////////////////
 
